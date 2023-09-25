@@ -133,7 +133,7 @@ print(ep)
 pi = mu.mt_pi()
 print(pi)"""
 
-import random as rd
+"""import random as rd
 
 res = rd.randint(1, 100)
 print(res)
@@ -146,7 +146,102 @@ fres = rd.random()
 print(fres)
 
 nvres = rd.normalvariate()
-print(nvres)
+print(nvres)"""
+
+"""from datetime import datetime as dt
+
+
+date_string = '2021-07-08'
+date_object = dt.strptime(date_string, '%')
+print(date_object)
+
+date_object = dt.now()
+date_string = date_object.strdtime('%Y-%m')
+print(date_string)"""
+
+"""print(dt.now())
+
+from pytz import timezone
+# tz = timezone('Asia/Seoul')
+tz = timezone('UTC')
+print("timezon : ", dt.now(tz))"""
+
+"""import mod.utils as mu
+
+dtnow = mu.get_dtnow()
+print(dtnow)
+
+ret = mu.cvt_str2time("2023-09-25")
+print(ret)
+
+res = mu.cvt_str2time()
+print(res)"""
+
+"""import os
+
+print(os.getcwd())
+
+os.chdir('../')
+
+print(os.getcwd())
+
+print(os.listdir())
+
+os.mkdir('new_directory')
+print(os.listdir())
+
+os.rmdir('new_directory')
+print(os.listdir())
+"""
+
+"""import mod.utils as mu
+import os
+
+print(mu.get_curdir())
+
+pname = "python"
+mu.os_mkdir(pname)
+print(os.listdir())
+
+os.rmdir(pname)
+print(os.listdir())"""
+
+"""import sys
+print(sys.version)
+print(sys.argv)"""
+
+"""st = []
+
+st.append(1)
+st.append(2)
+st.append(3)
+st.append(4)
+st.append(5)
+
+print(st) # [1, 2, 3]
+
+top = st.pop()
+print(top) # 3
+print(st) #
+print(len(st)) # 
+""" 
+
+queue = []
+
+queue.append(1)
+queue.append(2)
+queue.append(3)
+queue.append(4)
+queue.append(5)
+
+print(queue) # [1, 2, 3]
+
+front = queue.pop(0)
+print(front) # 1
+print(queue) # [2, 3]
+print(len(queue))
+
+  
 
 
 
